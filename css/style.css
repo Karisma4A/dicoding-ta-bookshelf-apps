@@ -115,49 +115,39 @@ input[type="number"],
   margin: auto 0;
 }
 
-.check-button {
-  background: url("../assets/check-outline.svg");
-  background-size: contain;
-  width: 40px;
+.check-button,
+.undo-button {
   height: 40px;
   margin-left: auto;
   cursor: pointer;
   border: none;
+  padding: 0px 10px;
+  border-radius: 10px;
+  background-color: #008000;
+  font-weight: 600;
 }
 
-.check-button:hover {
-  background: url("../assets/check-solid.svg");
-  background-size: contain;
+.check-button:hover,
+.undo-button:hover {
+  color: #fff;
+  background-color: #063a06;
 }
 
 .trash-button {
-  background: url("../assets/trash-outline.svg");
-  background-size: contain;
-  width: 40px;
   height: 40px;
   margin-left: 16px;
   cursor: pointer;
   border: none;
+  padding: 0px 10px;
+  border-radius: 10px;
+  background-color: #ff0000;
+  font-weight: 600;
+  color: #fff;
 }
 
 .trash-button:hover {
-  background: url("../assets/trash-fill.svg");
-  background-size: contain;
-}
-
-.undo-button {
-  background: url("../assets/undo-ouline.svg");
-  background-size: contain;
-  width: 40px;
-  height: 40px;
-  margin-left: auto;
-  cursor: pointer;
-  border: none;
-}
-
-.undo-button:hover {
-  background: url("../assets/undo-ouline.svg");
-  background-size: contain;
+  background-color: #ffc0cb;
+  color: #000;
 }
 
 .check-button:focus,
